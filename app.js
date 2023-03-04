@@ -1,10 +1,8 @@
-const btnRed = document.getElementById('redBtn');
-const btnGreen = document.getElementById('greenBtn');
-const btnYellow = document.getElementById('yellowBtn');
-const btnBlue = document.getElementById('blueBtn');
-const btnOrange = document.getElementById('orangeBtn');
-const btnClear = document.querySelector('#clear button');
-
+const btnRed = document.getElementById("redBtn");
+const btnGreen = document.getElementById("greenBtn");
+const btnYellow = document.getElementById("yellowBtn");
+const btnBlue = document.getElementById("blueBtn");
+const btnClear = document.querySelector("#clear");
 
 const fieldOne = document.getElementById("one");
 const fieldTwo = document.getElementById("two");
@@ -15,52 +13,51 @@ const fieldSix = document.getElementById("six");
 const fieldSeven = document.getElementById("seven");
 const fieldEight = document.getElementById("eight");
 const fieldNine = document.getElementById("nine");
+const fieldTen = document.getElementById("ten");
+const fieldEleven = document.getElementById("eleven");
+const fieldTwelve = document.getElementById("twelve");
 
-function colorRed(){
-    fieldOne.style.backgroundColor = 'red';
-    fieldSix.style.backgroundColor = 'red';
-
+function colorRed() {
+  fieldOne.style.backgroundColor = "#fc0313";
+  fieldSix.style.backgroundColor = "#fc0313";
+  fieldTwelve.style.backgroundColor = "#fc0313";
 }
 
-function colorYellow(){
-    fieldThree.style.backgroundColor = 'yellow';
-    fieldSeven.style.backgroundColor = 'yellow';
+function colorYellow() {
+  fieldThree.style.backgroundColor = "#f2f202";
+  fieldFive.style.backgroundColor = "#f2f202";
+  fieldSeven.style.backgroundColor = "#f2f202";
 }
 
-
-function colorGreen(){
-    fieldTwo.style.backgroundColor = 'green';
-    fieldNine.style.backgroundColor = 'green';
+function colorGreen() {
+  fieldTwo.style.backgroundColor = "#05f005";
+  fieldNine.style.backgroundColor = "#05f005";
+  fieldEleven.style.backgroundColor = "#05f005";
 }
 
-function colorBlue(){
-    fieldFour.style.backgroundColor = 'blue';
-    fieldEight.style.backgroundColor = 'blue';
-
+function colorBlue() {
+  fieldFour.style.backgroundColor = "#1a02f2";
+  fieldEight.style.backgroundColor = "#1a02f2";
+  fieldTen.style.backgroundColor = "#1a02f2";
 }
 
-function colorOrange(){
-    fieldFive.style.backgroundColor = 'orange';
+function clearColors() {
+  fieldOne.style.backgroundColor = "#03dffc";
+  fieldTwo.style.backgroundColor = "#03dffc";
+  fieldThree.style.backgroundColor = "#03dffc";
+  fieldFour.style.backgroundColor = "#03dffc";
+  fieldFive.style.backgroundColor = "#03dffc";
+  fieldSix.style.backgroundColor = "#03dffc";
+  fieldSeven.style.backgroundColor = "#03dffc";
+  fieldEight.style.backgroundColor = "#03dffc";
+  fieldNine.style.backgroundColor = "#03dffc";
+  fieldTen.style.backgroundColor = "#03dffc";
+  fieldEleven.style.backgroundColor = "#03dffc";
+  fieldTwelve.style.backgroundColor = "#03dffc";
 }
 
-function clearColors(){
-    fieldOne.style.backgroundColor = 'rgb(215, 187, 247)';
-    fieldTwo.style.backgroundColor = 'rgb(215, 187, 247)';
-    fieldThree.style.backgroundColor = 'rgb(215, 187, 247)';
-    fieldFour.style.backgroundColor = 'rgb(215, 187, 247)';
-    fieldFive.style.backgroundColor = 'rgb(215, 187, 247)';
-    fieldSix.style.backgroundColor = 'rgb(215, 187, 247)';
-    fieldSeven.style.backgroundColor = 'rgb(215, 187, 247)';
-    fieldEight.style.backgroundColor = 'rgb(215, 187, 247)';
-    fieldNine.style.backgroundColor = 'rgb(215, 187, 247)';
-}
-
-btnRed.addEventListener('click',colorRed);
-btnGreen.addEventListener('click',colorGreen);
-btnYellow.addEventListener('click',colorYellow);
-btnBlue.addEventListener('click',colorBlue);
-btnOrange.addEventListener('click',colorOrange);
-btnClear.addEventListener('click', clearColors);
-
-
-
+btnRed.addEventListener("click", colorRed);
+btnGreen.addEventListener("click", colorGreen);
+btnYellow.addEventListener("click", colorYellow);
+btnBlue.addEventListener("click", colorBlue);
+btnClear.addEventListener("click", clearColors);
