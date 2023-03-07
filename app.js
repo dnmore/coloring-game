@@ -18,27 +18,27 @@ const fieldEleven = document.getElementById("eleven");
 const fieldTwelve = document.getElementById("twelve");
 
 function colorRed() {
-  fieldOne.style.backgroundColor = "#fc0313";
-  fieldSix.style.backgroundColor = "#fc0313";
-  fieldTwelve.style.backgroundColor = "#fc0313";
+  fieldOne.style.backgroundColor = "rgb(220,53,69)";
+  fieldSix.style.backgroundColor = "rgb(220,53,69)";
+  fieldTwelve.style.backgroundColor = "rgb(220,53,69)";
 }
 
 function colorYellow() {
-  fieldThree.style.backgroundColor = "#f2f202";
-  fieldFive.style.backgroundColor = "#f2f202";
-  fieldSeven.style.backgroundColor = "#f2f202";
+  fieldThree.style.backgroundColor = "rgb(255,193,7)";
+  fieldFive.style.backgroundColor =  "rgb(255,193,7)";
+  fieldSeven.style.backgroundColor =  "rgb(255,193,7)";
 }
 
 function colorGreen() {
-  fieldTwo.style.backgroundColor = "#05f005";
-  fieldNine.style.backgroundColor = "#05f005";
-  fieldEleven.style.backgroundColor = "#05f005";
+  fieldTwo.style.backgroundColor = "rgb(25,135,84)";
+  fieldNine.style.backgroundColor = "rgb(25,135,84)";
+  fieldEleven.style.backgroundColor = "rgb(25,135,84)";
 }
 
 function colorBlue() {
-  fieldFour.style.backgroundColor = "#1a02f2";
-  fieldEight.style.backgroundColor = "#1a02f2";
-  fieldTen.style.backgroundColor = "#1a02f2";
+  fieldFour.style.backgroundColor = "rgb(13,110,253)";
+  fieldEight.style.backgroundColor = "rgb(13,110,253)";
+  fieldTen.style.backgroundColor = "rgb(13,110,253)";
 }
 
 function clearColors() {
@@ -61,3 +61,4 @@ btnGreen.addEventListener("click", colorGreen);
 btnYellow.addEventListener("click", colorYellow);
 btnBlue.addEventListener("click", colorBlue);
 btnClear.addEventListener("click", clearColors);
+

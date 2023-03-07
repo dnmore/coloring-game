@@ -27,16 +27,16 @@
     <style>
       h1 {
         font-family: "Merriweather", serif;
-        color: #0d0d0c;
+        color: rgb(18, 18, 17);
         font-weight: bold;
         text-align: center;
         padding: 2rem;
       }
       [class*="col"] {
         padding: 3rem;
-        background-color: #03dffc;
-        border: 2px solid #fff;
-        color: #fff;
+        background-color: rgb(87, 241, 231);
+        border: 2px solid rgb(250, 252, 252);
+               
       }
     </style>
   </head>
@@ -51,22 +51,25 @@
       </div>
     </div>
     <div class="container my-5">
-      <div class="row" style="width: 500px; margin: 0 auto">
-        <div class="col-md-4 col-sm-6" id="one"></div>
-        <div class="col-md-4 col-sm-6" id="two"></div>
-        <div class="col-md-4 col-sm-6" id="three"></div>
-        <div class="col-md-4 col-sm-6" id="four"></div>
-        <div class="col-md-4 col-sm-6" id="five"></div>
-        <div class="col-md-4 col-sm-6" id="six"></div>
-        <div class="col-md-4 col-sm-6" id="seven"></div>
-        <div class="col-md-4 col-sm-6" id="eight"></div>
-        <div class="col-md-4 col-sm-6" id="nine"></div>
-        <div class="col-md-4 col-sm-6" id="ten"></div>
-        <div class="col-md-4 col-sm-6" id="eleven"></div>
-        <div class="col-md-4 col-sm-6" id="twelve"></div>
+      <ol class="row" id="game-board" style="width: 500px; margin: 0 auto; list-style: none;">
+        <li class="col-md-4 col-sm-6" id="one"></li>
+        <li class="col-md-4 col-sm-6" id="two"></li>
+        <li class="col-md-4 col-sm-6 " id="three"></li>
+        
+        <li class="col-md-4 col-sm-6" id="four"></li>
+        <li class="col-md-4 col-sm-6" id="five"></li>
+        <li class="col-md-4 col-sm-6 " id="six"></li>
+
+        <li class="col-md-4 col-sm-6" id="seven"></li>
+        <li class="col-md-4 col-sm-6" id="eight"></li>
+        <li class="col-md-4 col-sm-6" id="nine"></li>
+         
+        <li class="col-md-4 col-sm-6" id="ten"></li>
+        <li class="col-md-4 col-sm-6" id="eleven"></li>
+        <li class="col-md-4 col-sm-6" id="twelve"></li>
         <div class="btn btn-dark" id="clear" style="width: 20%; margin: 10px auto">
           CLEAR
-        </div>
+        </ol>
       </div>
     </div>
   </body>
